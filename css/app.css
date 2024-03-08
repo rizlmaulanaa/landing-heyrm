@@ -62,3 +62,75 @@ header.navbar-container .nav-list li:hover a{
     background-color: #425c77;
     color: white;
 }
+/**/
+/*main Style*/
+ main{
+    flex: 1;
+
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+
+    display: flex;
+    align-items: center; /*arah untuk icon aside*/
+
+ }
+
+ /*class="content" style*/
+ main .content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+ }
+
+ main .content .content-description{ /*Style keseluruhan content*/
+    flex: 1 1;
+ }
+
+ main .content .content-description .title{ /*Style title pada class content-description*/
+    margin-block: 1rem;
+    font-size: 3.5rem;
+ }
+
+ main .content .content-description p{ /*style paragraf pada class content-description*/
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+ }
+
+ main .content .content-description button{ /*Style button "Lebih lanjut"*/
+    padding: 0.8rem 2.5rem;
+    border: 3px solid transparent;
+    border-radius: 9999px;
+    margin-block-start: 1rem;
+
+    background-color: #2d3e50;
+
+    font-family: 'Quicksand' sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+ }
+
+ main .content .content-description button:hover{ /*Style hover untuk button*/
+    border: 3px solid #2d3e50;
+    background-color: transparent;
+
+    color: #2d3e50;
+ }
+
+ main .content .content-image{ /*Style divisi pada logo G*/
+    flex: 1;
+    display: flex;
+ }
+
+ main .content .content-image img{ /*style untuk Logo G*/
+    width: 300px;
+    min-width: 250px;
+    margin: auto;
+ }
+ /**/
