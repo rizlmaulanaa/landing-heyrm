@@ -175,3 +175,38 @@ header.navbar-container .nav-list li:hover a{
  main aside .social-media li a:hover{ /*Style hover pada Aside*/
    color: #89b0d9;
  }
+ /**/
+ /*Responsivitas website pada semua tipe device*/
+
+ /*Medium device untuk (768px kebawah)*/
+ @media screen and (max-width: 768px) {
+   header.navbar-container{
+      flex-direction: column;
+   }
+
+   header.navbar-container .nav-list ul{
+      flex-wrap: wrap;
+      column-gap: 0.5rem;
+   }
+
+   main{
+      padding: 1rem 3rem;
+   }
+
+   main .content{
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   main .content .content-description .title{
+      font-size: 3rem;
+   }
+   
+   main .content .content-description p{
+      font-size: 1rem;
+   }
+
+   main .content .content-image{
+      order: -1; /*default value : 0*/ /* untuk mengatur element turun lebih dulu saat berada pada ukuran layar berbeda*/
+   }
+ }
