@@ -134,3 +134,44 @@ header.navbar-container .nav-list li:hover a{
     margin: auto;
  }
  /**/
+ /*Aside Style*/
+ main aside{ /*mengatur posisi aside*/
+   position: fixed;
+   inset-block: 0;
+   inset-inline-end: 0;
+ }
+
+ main aside .social-media{
+   height: 100%;
+   display: flex; /*mengatur aside menjadi FLEXbox*/
+ }
+
+ main aside .social-media ul{ /*Mengatur UL aside pada class= 'social-media' background icon */
+   padding: 1.5rem 1rem;
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+   margin: auto;
+   background-color: #2d3e50;
+
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5rem;
+ }
+
+ main aside .social-media li{ /*Style untuk LIst pada susunan ICON */
+   list-style-type: none;
+ }
+
+ main aside .social-media li a{ /*Style pada ICON / isi dari list diatas*/
+   color: white;
+   text-decoration: none;
+   font-size: 1.5rem;
+
+   transition: all 0.1s ease-in-out;
+ }
+
+ main aside .social-media li a:hover{ /*Style hover pada Aside*/
+   color: #89b0d9;
+ }
