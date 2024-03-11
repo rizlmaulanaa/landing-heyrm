@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heyrm</title>
+    <!-- link css dan js -->
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="script.js"></script>
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link ke font awsome (spesial font untuk aside)-->
+    <script
+      src="https://kit.fontawesome.com/05c0051140.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Heyrm.</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" onclick="setActive(this)">Home</a>
+        <a href="#about" onclick="setActive(this)">About</a>
+        <a href="#experience" onclick="setActive(this)">Experience</a>
+        <a href="#contact" onclick="setActive(this)">contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi,i'm <span>Rizal Maulana</span></h1>
+          <h4>Pc Builder - Online Store Administrator - Computer technician</h4>
+          <p>
+            This is my official Portofolio website to shows all details about me
+            and my experience.
+          </p>
+          <!-- Photo -->
+          <aside>
+          <div class="images">
+            <!-- <img src="img/Dual_blob.svg" class="bg"> -->
+            <img src="img/profil.png" class="profil" />
+          </div>
+          </aside>
+          <!-- sosial media -->
+          <!-- <aside> -->
+            <div class="social-media">
+              <a href="https://www.linkedin.com/in/rizal-maulana-6ba5a2197/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/takebyjer/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-unsplash"></i></a>
+            </div>
+          <!-- </aside> -->
+          <!-- arrow -->
+          <div class="arrow-container" onclick="scrollToBottom()">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </section>
+      <!-- main content -->
+      <section class="about" id="about">
+        <div class="main">
+          <img src="img/DSC04190.JPG" alt="" />
+          <div class="about-content">
+            <h2>About Me</h2>
+            <h5>
+              Pc Builder - Online Store Administrator - Computer technician
+            </h5>
+            <p>
+              I am an experienced PC builder and Official Store Administrator in several e-commerce platforms. Have assembled and activated and quick tested hundreds of computers and laptops with proven expertise.
+
+              I am ready to connect with fellow professionals who share an interest in the technology industry. Willing to collaborate, share knowledge, or even explore exciting career opportunities.
+              
+              Let's connect and expand our network. Together, we can create success in the world of technology. Feel free to contact me for discussion or exchange of ideas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lastets project -->
+      <article class="experience" id="experience">
+      <div class="title">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h5>Computer Technician</h5>
+          <div class="pra">
+            <p>3 years experience, have quick test arround 1000+ laptops,PCs,All in One, from 3 big brand : Lenovo,ASUS,MSI</p>
+          </div>
+
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-computer"></i>
+          <h5>PC Builder experienced</h5>
+          <div class="pra">
+            <p>5 years experience, have assamble more than 100 personal computer,with by request sepsification</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-regular fa-user"></i>
+          <h5>Online Store Administrator</h5>
+          <div class="pra">
+            <p>3 years experience, have running many promotion program at Tokopedia & Shopee, also doing Stock Keeping Unit for products</p>
+          </div>
+        </div>
+        
+      </div>
+    </article>
+
+    <div class="contact-me" id="contact">
+      <p>Let's Connected and be bussiness partner</p>
+      <a href="#home" class="button-talk">Connect</a>
+    </div>
+     
+    <!-- Footer -->
+    <footer>
+      <p>Rizal Maulana</p>
+      <p>Tugas akhir - Belajar Pemrograman dasar HTML & CSS</p>
+      <p>copyright Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+    </footer>
+    </main>
+  </body>
+</html>
